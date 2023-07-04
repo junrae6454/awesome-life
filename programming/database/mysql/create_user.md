@@ -22,6 +22,7 @@
 ### set permission for user
 - ```sql
   mysql > GRANT ALL PRIVILEGES ON {DB_NAME}.{TABLE_NAME} TO {userid}@{host};
+  mysql > GRANT ALL PRIVILEGES ON *.* TO {userid}@{host};
   mysql > flush privileges;
   ```
 
